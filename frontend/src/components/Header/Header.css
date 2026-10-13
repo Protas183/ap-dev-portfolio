@@ -61,7 +61,6 @@
 }
 
 .header-hero-list-page {
-    color: #94a3b8;
 
     font-size: 14px;
     font-weight: 500;
@@ -74,9 +73,19 @@
 }
 
 .header-hero-list-page:hover {
+    transform: translateY(-3px);
+
+    .header-hero-list-page-link {
     color: #3b82f6;
-    transform: translateY(-1px);
 }
+}
+
+.header-hero-list-page-link {
+    padding: 15px 0;
+    color: #94a3b8;
+}
+
+
 
 
 /* =========================

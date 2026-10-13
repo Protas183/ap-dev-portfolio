@@ -1,11 +1,11 @@
 import Hero from "./Hero/Hero.jsx";
-import Biography from "./Biography/Biography.jsx";
+import InterestingFacts from "./Interesting/InterestingFacts.jsx";
 
 function About() {
     return (
         <div className="about">
             <Hero/>
-            <Biography/>
+            <InterestingFacts/>
         </div>
     )
 }

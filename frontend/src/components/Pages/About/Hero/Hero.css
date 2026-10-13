@@ -10,7 +10,7 @@
     align-items: center;
     gap: 70px;
 
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 80px 30px;
 
@@ -31,7 +31,7 @@
 .hero-greeting {
     margin: 0 0 8px;
 
-    color: #0000c1;
+    color: #f1f5f9;
     font-size: 16px;
     font-weight: 500;
 }
@@ -45,7 +45,7 @@
 
     letter-spacing: -2px;
 
-    background: #0000c1;
+    background: linear-gradient(90deg, #3b82f6, #67e8f9);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,7 +54,8 @@
 .hero h2 {
     margin: 12px 0 30px;
 
-    color: #0000c1;
+
+    color: #f1f5f9;
 
     font-size: clamp(20px, 2vw, 28px);
     font-weight: 500;

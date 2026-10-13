@@ -1,7 +1,7 @@
-import "./Header.css"
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
-
     return (
         <header>
             <div className="header">
@@ -10,13 +10,33 @@ function Header() {
                     <h3>AP</h3>
                     <h5>Artem Protas</h5>
                 </div>
+
                 <ul className="header-hero-list">
-                    <li className="header-hero-list-page">About</li>
-                    <li className="header-hero-list-page">Skills</li>
-                    <li className="header-hero-list-page">Projects</li>
-                    <li className="header-hero-list-page">Experience</li>
-                    <li className="header-hero-list-page">Contact</li>
+                    <li className="header-hero-list-page">
+                        <Link to="/" className="header-hero-list-page-link">
+                            About
+                        </Link>
+                    </li>
+
+                    <li className="header-hero-list-page">
+                        <Link to="/projects" className="header-hero-list-page-link">
+                            Projects
+                        </Link>
+                    </li>
+
+                    <li className="header-hero-list-page">
+                        <Link to="/experience" className="header-hero-list-page-link">
+                            Experience
+                        </Link>
+                    </li>
+
+                    <li className="header-hero-list-page">
+                        <Link to="/contact" className="header-hero-list-page-link">
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
+
                 <div>
                     <button className="header-downloand-cv">
                         Download CV
@@ -24,7 +44,7 @@ function Header() {
                 </div>
             </div>
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;
