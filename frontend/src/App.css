@@ -1,9 +1,4 @@
-.app {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
+main{
     flex: 1;
 }
+
